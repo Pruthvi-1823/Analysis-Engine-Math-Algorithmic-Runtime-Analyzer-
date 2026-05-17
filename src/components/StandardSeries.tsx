@@ -149,11 +149,6 @@ export function StandardSeries({ comparisonDeck, onAddToComparison, onClearCompa
            <div className="text-3xl font-mono tracking-tight font-bold text-quantum-glow drop-shadow-[0_0_8px_rgba(0,229,255,0.5)]">
               {result?.exact === Infinity ? '∞' : result?.exact !== undefined ? Number(result.exact.toFixed(4)).toLocaleString() : '---'}
            </div>
-           {result?.isConvergingText && (
-             <div className="text-xs text-quantum-bg font-bold mt-4 bg-quantum-glow py-1.5 px-4 rounded-full shadow-[0_0_10px_rgba(0,229,255,0.4)]">
-               <InlineMath math={result.isConvergingText} />
-             </div>
-           )}
         </div>
       </div>
 
