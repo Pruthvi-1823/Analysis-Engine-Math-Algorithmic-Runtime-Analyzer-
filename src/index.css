@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-quantum-bg: #03151E;
+  --color-quantum-card: #07222F;
+  --color-quantum-glow: #00E5FF;
+  --color-quantum-text: #E0F7FA;
+  --color-quantum-muted: #6e9aab;
+}
+
+@layer utilities {
+  .hide-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .bento-card {
+    background-color: var(--color-quantum-card);
+    border: 1px solid rgba(0, 229, 255, 0.2);
+    color: var(--color-quantum-text);
+    border-radius: 0.75rem;
+    transition: all 0.3s ease;
+  }
+  .bento-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(0, 229, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+  }
+}
+
+.katex {
+  color: var(--color-quantum-text) !important;
+}

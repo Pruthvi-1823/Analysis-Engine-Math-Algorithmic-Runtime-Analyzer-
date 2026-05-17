@@ -1,0 +1,6 @@
+{
+  "name": "Math & Algorithm Analyzer",
+  "description": "A Streamlit-inspired application utilizing mathematical progression algorithms and custom symbolic summations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
