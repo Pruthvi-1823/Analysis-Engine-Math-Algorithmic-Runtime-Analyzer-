@@ -58,7 +58,7 @@ export function WelcomePage({ onNavigate }: WelcomePageProps) {
     <div className="max-w-6xl mx-auto flex flex-col gap-12 pb-12 pt-8">
       <div className="text-center space-y-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-quantum-text drop-shadow-[0_0_15px_rgba(0,229,255,0.4)]">
-          Algorithmic Analytics & Discrete Math Engine
+          Summation and Series Calculator
         </h1>
         <p className="text-lg text-quantum-muted max-w-2xl mx-auto">
           A powerful interactive environment for modeling infinite series, evaluating custom summations, and analyzing algorithmic time complexity visually.
