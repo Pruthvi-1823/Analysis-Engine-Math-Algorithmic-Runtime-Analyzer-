@@ -1,20 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AnalysisEngine: Math & Algorithmic Runtime Analyzer 🚀
 
-# Run and deploy your AI Studio app
+**Live Application:** [analysis-engine-swart.vercel.app](https://analysis-engine-swart.vercel.app)
 
-This contains everything you need to run your app locally.
+AnalysisEngine is an interactive single-page dashboard built with React, Vite, and Tailwind CSS. The project serves as a visual learning tool that bridges abstract mathematical progressions (arithmetic, geometric, and harmonic series) with practical computer science concepts, such as loop complexity metrics and Big-O asymptotic scaling. 
 
-View your app in AI Studio: https://ai.studio/apps/075a6d0b-1820-4541-9b10-23ab5af6b02b
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Using real-time calculations and dynamic HTML5 Canvas charts, the dashboard allows users to manipulate variables and data inputs to instantly witness how different algorithmic structures directly impact CPU workloads and performance scaling thresholds.
